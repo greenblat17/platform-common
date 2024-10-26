@@ -1,10 +1,9 @@
 module github.com/greenblat17/platform-common
 
-go 1.23
+go 1.22
 
 require (
 	github.com/georgysavva/scany v1.2.2
-	github.com/greenblat17/auth v0.0.0-20241023094648-576c2fce62ac
 	github.com/jackc/pgconn v1.14.3
 	github.com/jackc/pgx/v4 v4.18.3
 	github.com/pkg/errors v0.9.1
@@ -19,5 +18,6 @@ require (
 	github.com/jackc/pgtype v1.14.0 // indirect
 	github.com/jackc/puddle v1.3.0 // indirect
 	golang.org/x/crypto v0.26.0 // indirect
+	golang.org/x/sys v0.24.0 // indirect
 	golang.org/x/text v0.17.0 // indirect
 )
