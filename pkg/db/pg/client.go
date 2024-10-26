@@ -3,7 +3,7 @@ package pg
 import (
 	"context"
 
-	"github.com/greenblat17/auth/internal/client/db"
+	"github.com/greenblat17/platform-common/pkg/db"
 	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/pkg/errors"
 )

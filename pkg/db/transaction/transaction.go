@@ -3,8 +3,8 @@ package transaction
 import (
 	"context"
 
-	"github.com/greenblat17/auth/internal/client/db"
-	"github.com/greenblat17/auth/internal/client/db/pg"
+	"github.com/greenblat17/platform-common/pkg/db"
+	"github.com/greenblat17/platform-common/pkg/db/pg"
 	"github.com/jackc/pgx/v4"
 	"github.com/pkg/errors"
 )

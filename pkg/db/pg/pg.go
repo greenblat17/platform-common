@@ -6,8 +6,8 @@ import (
 	"log"
 
 	"github.com/georgysavva/scany/pgxscan"
-	"github.com/greenblat17/auth/internal/client/db"
-	"github.com/greenblat17/auth/internal/client/db/prettier"
+	"github.com/greenblat17/platform-common/pkg/db"
+	"github.com/greenblat17/platform-common/pkg/db/prettier"
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
